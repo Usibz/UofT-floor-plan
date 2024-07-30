@@ -1,8 +1,18 @@
 /* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
 
 .floorplan-container {
     position: relative;
     display: inline-block;
+    position: relative;
+    overflow: hidden;
 }
 
 .floorplan {
@@ -28,4 +38,13 @@
 
 .lecture-room {
     background-color: rgba(232, 215, 25, 0.5);
+}
+
+/* zoom */ 
+
+#floorplan {
+    transition: transform 1s ease; /* Smooth transition for zoom effect */
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
 }
