@@ -1,0 +1,31 @@
+/* styles.css */
+
+.floorplan-container {
+    position: relative;
+    display: inline-block;
+}
+
+.floorplan {
+    display: block;
+}
+
+
+/* highlight */
+
+.overlay {
+    position: absolute;
+    background-color: rgba(189, 178, 178, 0.5); 
+    pointer-events: none; 
+}
+
+.professor-room {
+    background-color: rgba(188, 20, 210, 0.5);
+}
+
+.student-room {
+    background-color: rgba(45, 226, 39, 0.5);
+}
+
+.lecture-room {
+    background-color: rgba(232, 215, 25, 0.5);
+}
